@@ -14,6 +14,7 @@ public class Pizza extends JFrame implements ActionListener {
         f.setLayout(null);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setVisible(true);
+        f.setResizable(false);
         small = new JRadioButton("Small", true);
         small.setBounds(41, 49, 67, 24);
         medium = new JRadioButton("Medium");
